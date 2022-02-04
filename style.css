@@ -1,0 +1,46 @@
+.container-1 {
+  border: 1px solid transparent;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-cat {
+  background-color: green;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 5%;
+  padding: 10px;
+  box-shadow: 1px 2px 2px 2px grey;
+  cursor: pointer;
+}
+
+.btn-cat:hover {
+  background-color: rgb(255, 143, 102);
+}
+
+.btn-cat:active {
+  border-radius: 20px;
+}
+
+.cat-container {
+  border: 1px solid transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cat-container img {
+  margin: 20px;
+  box-shadow: 0px 5px 5px 5px #696969;
+}
+
+img {
+  margin: 10px 10px;
+  border-radius: 10%;
+}
+
+img:hover {
+  box-shadow: 0px 5px 20px rgb(31, 170, 216);
+}
